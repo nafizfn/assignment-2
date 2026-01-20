@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
     <title>TechWave</title>
 </head>
-<body>
+<body class="inter-font">
     <header>
         <nav class="flex py-5 px-[200px] justify-between bg-[#1A0B2E]">
             <img src="./assets/TechWave.png" alt="">
@@ -70,11 +71,11 @@ and share stories of personal growth from industry leaders.
                 </div>
                 </div>
         </section>
-    <section class="bg-[#230E3D] px-[200px] py-[120px]">
-        <div>
+    <section class="bg-[#230E3D] px-[200px] py-[120px] h-[1121px]">
+        <div class="mb-10">
             <h2 class="text-center text-white text-5xl">Why Choose TechWave</h2>
         </div>
-            <div class="grid grid-cols-3 grid-rows-3 gap-8">
+            <div class="h-[783px] grid grid-cols-3 grid-rows-3 gap-8">
                 <div class="col-span-1 row-span-2 border-0 bg-[#351165] rounded-[40px] px-10 py-27">
                 <img src="./assets/headphone.png" alt="">
                 <h3 class="text-white mt-4 text-2xl font-bold mb-4">Premium Audio Quality</h3>
@@ -93,7 +94,7 @@ and share stories of personal growth from industry leaders.
             <div class="col-span-2 row-span-1 bg-[#351165] rounded-[40px] px-10 pt-10">
                 <img src="./assets/headphone.png" alt="">
                 <h3 class="text-white mt-4 text-2xl font-bold mb-4">Exclusive Interviews</h3>
-                <p class="text-white opacity-60 text-base w-[710px] leading-6">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+                <p class="text-white opacity-60 text-base w-[710px] h-[72px] leading-6">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
             </div>
             <div class="col-span-1 row-span-1 bg-[#351165] rounded-[40px] px-10 pt-10">
                 <img src="./assets/resource.png" alt="">
@@ -101,6 +102,41 @@ and share stories of personal growth from industry leaders.
                 <p class="text-white opacity-60 text-base leading-6">Access show notes, transcripts, and additional learning materials for every episode.</p>
             </div>
             </div>
+    </section>
+
+    <section class="bg-[#1A0B2E] w-full max-h-[1276px]">
+        <div class="text-center mb-10 pt-[120px] text-5xl text-white font-bold">
+            <h2>Featured Episodes</h2>
+        </div>
+        <div class="grid grid-cols-3 grid-rows-1 px-[200px] gap-[30px]">
+            <div class="bg-[#250D44] rounded-3xl w-full max-h-[440px]">
+            <iframe class="w-full h-[214px] rounded-3xl mb-6" src="https://www.youtube.com/embed/CRraHg4Ks_g?si=y9b3nQ8f6OxDKEAS" frameborder="0"></iframe>
+            <h2 class="text-white text-2xl font-bold max-w-[335px] pl-6">The Future of AI in Everyday Life</h2>
+            <p class="text-white opacity-60 pl-6 mt-3 text-base leading-6 max-w-[332px]">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+            <div class="flex pl-6 gap-1.5 mt-3 items-center">
+                <img class="w-5 h-5" src="./assets/clock.png" alt="">
+                <span class="text-[#00FF88] text-base font-semibold">42 Min</span>
+            </div>
+        </div>
+        <div class="bg-[#250D44] rounded-3xl w-full h-[440px]">
+            <iframe class="w-full h-[214px] rounded-3xl mb-6" src="https://www.youtube.com/embed/CRraHg4Ks_g?si=y9b3nQ8f6OxDKEAS" frameborder="0"></iframe>
+            <h2 class="text-white text-2xl font-bold max-w-[335px] pl-6">Building Better Habits for Remote Work</h2>
+            <p class="text-white opacity-60 pl-6 mt-3 text-base leading-6 max-w-[332px]">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+            <div class="flex pl-6 gap-1.5 mt-3 items-center">
+                <img class="w-5 h-5" src="./assets/clock.png" alt="">
+                <span class="text-[#00FF88] text-base font-semibold">35 Min</span>
+            </div>
+        </div>
+        <div class="bg-[#250D44] rounded-3xl w-full h-[440px]">
+            <iframe class="w-full h-[214px] rounded-3xl mb-6" src="https://www.youtube.com/embed/CRraHg4Ks_g?si=y9b3nQ8f6OxDKEAS" frameborder="0"></iframe>
+            <h2 class="text-white text-2xl font-bold max-w-[335px] pl-6">Career Growth in Tech: A Roadmap</h2>
+            <p class="text-white opacity-60 pl-6 mt-3 text-base leading-6 max-w-[332px]">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+            <div class="flex pl-6 gap-1.5 mt-3 items-center">
+                <img class="w-5 h-5" src="./assets/clock.png" alt="">
+                <span class="text-[#00FF88] text-base font-semibold">51 Min</span>
+            </div>
+        </div>
+        </div>
     </section>
     </main>
 </body>
